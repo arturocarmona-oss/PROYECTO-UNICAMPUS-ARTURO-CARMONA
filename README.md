@@ -91,13 +91,3 @@ La cancelación, la desactivación y los permisos se cubren además en las prueb
 Se respaldó el código original antes de migrarlo. La copia está fuera del paquete de código final, en la carpeta de trabajo de esta tarea. También se creó una copia SQL `COPY_ONLY` con checksum en la carpeta Backup de la instancia, con nombre `EventosDB_antes_UniCampus_20261112.bak`. No subir ese respaldo a GitHub, pues contiene los registros existentes.
 
 Los nueve registros iniciales no se exportan al ZIP ni al script. La solución final está en la carpeta outputs/UniCampus de esta tarea y está abierta en Visual Studio. El proyecto fuente original permanece como referencia; el trabajo continúa en la copia organizada.
-
-## Pendientes para entregar en la plataforma
-
-- Completar integrantes y responsabilidades en el informe. No se inventaron autores.
-- Agregar el enlace del repositorio al informe y a la plataforma, y verificar el acceso de la docente.
-- Confirmar con la docente el alcance y la rúbrica definitiva; presentar la demostración y explicar el código.
-- Completar la evidencia de cancelación real, filtros combinados, paginación con más de cinco actividades y concurrencia antes de afirmar cobertura total.
-- Para producción: autenticación real, HTTPS, configuración de secretos fuera del repositorio y registro persistente de errores. El alcance entregado es una aplicación académica local.
-
-Los tres archivos principales están preparados como `01_Informe_Tecnico.pdf`, `02_Solucion_VisualStudio.zip` y `03_BaseDatos.sql`. El informe distingue comprobaciones realizadas de pendientes.
