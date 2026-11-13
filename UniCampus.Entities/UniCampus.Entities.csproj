@@ -1,0 +1,7 @@
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <PropertyGroup><Configuration Condition="'$(Configuration)'==''">Debug</Configuration><Platform Condition="'$(Platform)'==''">AnyCPU</Platform><ProjectGuid>{DCADF45D-A75F-4E39-9AA3-F88402309B8A}</ProjectGuid><OutputType>Library</OutputType><RootNamespace>UniCampus.Entities</RootNamespace><AssemblyName>UniCampus.Entities</AssemblyName><TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion><LangVersion>7.3</LangVersion><OutputPath>bin\</OutputPath><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType></PropertyGroup>
+ <ItemGroup><Reference Include="System"/><Reference Include="System.Core"/><Reference Include="System.Data"/><Reference Include="System.Configuration"/><Reference Include="System.Xml"/></ItemGroup>
+ <ItemGroup><Compile Include="**\*.cs" Exclude="bin\**;obj\**"/></ItemGroup>
+ <ItemGroup></ItemGroup>
+ <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets"/>
+</Project>
